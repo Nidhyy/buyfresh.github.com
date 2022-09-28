@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+body{
+    background-image: url("./images/bg-icon.png");
+    background-size: 750px 450px;
+}
+header{
+    box-shadow: 0 11px 11px -6px rgba(0,0,0,.2); 
+}
+.navbar-brand{
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+}
+#logo-text{
+    color: #3cb815;
+    font-family: 'Epilogue', sans-serif;
+}
+.sub-tittle{
+    color: #3cb815;
+}
+#text-show{
+    font-family: 'Epilogue', sans-serif;
+}
+.prize{
+    color: #3cb815; 
+}
+.nav-item{
+    font-weight: 500;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-item a:hover{
+    color: #3cb815;
+    transition: 0.5s;
+}
+.search{
+    height: 40px;
+    width: 110%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Manrope', sans-serif;
+    border: 2px solid #3cb815;
+}
+.search:hover{
+    border: 2px solid #4ec928;
+    transition: 0.5s;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    background: #3cb815;
+    border-radius: 60px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+     
+}
+.hero{
+    background-image:linear-gradient(rgba(128, 128, 128, 0.04),rgba(255, 255, 255, 0.13)), url("./images/hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.hero h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#28aa00, #004244ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn1{
+     height: 45px;
+     width: 35%;
+     border: none;
+     outline: none;
+     background: #3cb815;
+     border-radius: 60px;
+     border-top-right-radius: 0;
+     transition: 0.5s;
+     
+    
+}
+.btn1:hover{
+    background:   #4ec928;
+    transition: 0.5s;
+    border-top-right-radius: 60px;
+}
+.btn0:hover{
+    background:  #4ec928;
+    transition: 0.5s;
+    border-top-right-radius: 60px;
+}
+.card:hover{
+
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("./images/hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+.news{
+    background-color: #111;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: #3cb815;
+    margin-left: -10px;
+    border: 2px solid #3cb815;
+    font-weight: 500;
+    color: white;
+}
+.btn2:hover{
+    border: 2px solid #4ec928;
+    transition: 0.5s;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid #3cb815;
+    outline: none;
+    background: #111;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.ftr-icon:hover{
+    color:  #4ec928;
+    transition: 0.5s;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border: none;
+    color: #3cb815;
+    z-index: 1;
+  }
+#btn-back-to-top:hover{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border: none;
+    color: #4ec928;
+}
+::-webkit-scrollbar{
+    width: 11px;
+    background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#4ec928,#4ec928);
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#ffffff,#ffffff);
+    border: 1px solid #000000;
+}
+.hero h1{
+    animation-delay: 0.5s;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
